@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Computer Coaching</title>
+<title>Computer Coaching Institute</title>
 
 <style>
+
 body{
-font-family: Arial;
+font-family:Arial;
 margin:0;
 background:#f2f2f2;
 }
@@ -25,13 +26,20 @@ text-align:center;
 
 nav a{
 color:white;
-margin:10px;
+margin:15px;
 text-decoration:none;
 font-size:18px;
 }
 
-section{
-padding:20px;
+.hero{
+background:#2196f3;
+color:white;
+padding:60px;
+text-align:center;
+}
+
+.section{
+padding:40px;
 text-align:center;
 }
 
@@ -40,6 +48,17 @@ background:white;
 margin:15px;
 padding:20px;
 border-radius:10px;
+display:inline-block;
+width:250px;
+}
+
+.teacher{
+background:white;
+margin:15px;
+padding:20px;
+border-radius:10px;
+display:inline-block;
+width:200px;
 }
 
 form{
@@ -63,12 +82,25 @@ border:none;
 border-radius:5px;
 }
 
+.whatsapp{
+display:block;
+width:220px;
+margin:20px auto;
+text-align:center;
+background:#25D366;
+color:white;
+padding:12px;
+border-radius:8px;
+text-decoration:none;
+}
+
 footer{
 background:#333;
 color:white;
 text-align:center;
-padding:15px;
+padding:20px;
 }
+
 </style>
 
 </head>
@@ -76,59 +108,87 @@ padding:15px;
 <body>
 
 <header>
-<h1>satyam Computer Coaching</h1>
-<p>Learn Computer Skills</p>
+<h1>Shiv Shakti Computer Coaching</h1>
+<p>Learn Computer Skills Easily</p>
 </header>
 
 <nav>
 <a href="#">Home</a>
 <a href="#">Courses</a>
+<a href="#">Teachers</a>
+<a href="#">Admission</a>
 <a href="#">Contact</a>
 </nav>
 
-<section>
+<div class="hero">
+<h2>Join Our Computer Courses</h2>
+<p>Basic Computer | Excel | Word | PowerPoint</p>
+<button>Join Now</button>
+</div>
+
+<div class="section">
 
 <h2>Our Courses</h2>
 
 <div class="course">
 <h3>Basic Computer</h3>
-<p>Learn basic computer skills</p>
-</div>
-
-<div class="course">
-<h3>MS Word</h3>
-<p>Learn document typing and formatting</p>
+<p>Learn computer basics</p>
 </div>
 
 <div class="course">
 <h3>MS Excel</h3>
-<p>Learn spreadsheets and formulas</p>
+<p>Learn spreadsheets</p>
 </div>
 
 <div class="course">
 <h3>PowerPoint</h3>
-<p>Learn presentation design</p>
+<p>Presentation design</p>
 </div>
+
+</div>
+
+<div class="section">
+
+<h2>Our Teachers</h2>
+
+<div class="teacher">
+<h3>Rahul Sir</h3>
+<p>Excel Expert</p>
+</div>
+
+<div class="teacher">
+<h3>Aman Sir</h3>
+<p>Computer Trainer</p>
+</div>
+
+</div>
+
+<div class="section">
 
 <h2>Student Admission Form</h2>
 
 <form>
-<input type="text" placeholder="Your Name"><br>
-<input type="email" placeholder="Your Email"><br>
+
+<input type="text" placeholder="Student Name"><br>
+
 <input type="text" placeholder="Phone Number"><br>
+
+<input type="email" placeholder="Email"><br>
 
 <select>
 <option>Select Course</option>
 <option>Basic Computer</option>
-<option>MS Word</option>
-<option>MS Excel</option>
+<option>Excel</option>
 <option>PowerPoint</option>
 </select><br><br>
 
 <button type="submit">Submit</button>
+
 </form>
 
-</section>
+</div>
+
+<a class="whatsapp" href="https://wa.me/918429372086">Chat on WhatsApp</a>
 
 <footer>
 <p>Contact: 8429372086</p>
